@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:"/canvasium-docs/",
   title: "Canvasium",
   description: "Markup-based canvas rendering engine for Node.js",
   themeConfig: {
