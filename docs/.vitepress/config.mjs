@@ -54,7 +54,7 @@ export default defineConfig({
       },
     ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/h1dr4x/canvasium-docs" },
+      { icon: "github", link: "https://github.com/h1dr4x0/canvasium" },
     ],
   },
 });
