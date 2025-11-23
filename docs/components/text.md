@@ -32,6 +32,7 @@ The `<text>` component renders plain text on the canvas with full control over f
 | `horizontalAlign` | string | (Optional) `left`, `center`, `right` — aligns text inside parent |
 | `verticalAlign`   | string | (Optional) `top`, `center`, `bottom` — aligns text inside parent |
 | `maxWidth`        | number | (Optional) Limits text width, useful for wrapping or truncation  |
+| `zIndex`          | number | (Optional) Layer order. Lower draws first; ties favor earlier markup |
 
 ---
 
@@ -72,3 +73,4 @@ The text value supports dynamic variables using curly braces:
 
 - Fonts must be registered via `registerFont()` to be used (e.g. Poppins).
 - Positioning is relative to the parent container (e.g. `<card>` or `<body>`).
+- Rendering order respects `zIndex`; with equal `zIndex`, earlier markup appears on top.

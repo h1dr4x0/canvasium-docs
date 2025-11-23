@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Canvasium"
-  text: "v1.0.0"
+  text: "v1.2.0"
   tagline: "Markup-based Canvas Rendering Engine for Node.js"
 
   actions:
