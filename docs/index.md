@@ -12,7 +12,7 @@ hero:
       link: /guide/introduction
     - theme: alt
       text: View on GitHub
-      link: https://github.com/h1dr4x/canvasium
+      link: https://github.com/h1dr4x0/canvasium
 
 features:
   - icon: 🧩
